@@ -21,12 +21,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
       author: michael
-      read_time: true
-      comments: false
-      share: true
-      related: true
 
 paginate: 5
 paginate_path: /seite/:num/
