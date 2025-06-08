@@ -1,78 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: "Michaels .NET Blog"
+name: "Michael Schneider"
+description: >
+  Praxisnahe .NET-Entwicklung – fundiert, verständlich, direkt aus dem Maschinenraum.
+  In diesem Blog teile ich Erkenntnisse aus über 20 Jahren Arbeit mit .NET – von der .NET-1.0-Beta bis hin zu modernen Cross-Plattform-Projekten.
 
-title: Michaels .NET Dev Blog
+url: "https://blog.schneider-michael.de"
+baseurl: ""
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Praxisnahe .NET-Entwicklung mit C# und ASP.NET Core - fundiert, verständlich, 
-  direkt aus dem Maschinenraum.In diesem Blog teile ich meine Erkenntnisse und 
-  Erfahrungen seit dem Beta-Programm der Version 1.0 bis hin zu modernen 
-  Cross-Plattform-Anwendungen mit .NET.  
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.schneider-michael.de" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
-
-# Build settings
-theme: jekyll-theme-cayman
-
-author:
-  name: Michael Schneider
-  
-github:
-  is_project_page: false
-
-social_links:
-  linkedin: https://www.linkedin.com/in/michael-schneider-3a027233
-  xing: https://www.xing.com/profile/Michael_Schneider104
-
-
-# Optional: Footer-Links für Impressum/Datenschutz
-footer_links:
-  - title: "Impressum & Datenschutz"
-    url: "https://schneider-michael.de/home/Impressum"
-
-
-markdown: kramdown
-
+theme: "minimal-mistakes-jekyll"
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Navigation
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author: michael
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+paginate: 5
+paginate_path: /seite/:num/
+
+author:
+  michael:
+    name: "Michael Schneider"
+    bio: "Softwareentwickler mit 20+ Jahren .NET-Erfahrung"
+    links:
+      - label: "LinkedIn"
+        icon: "fab fa-linkedin"
+        url: "https://www.linkedin.com/in/michael-schneider-3a027233"
+      - label: "Xing"
+        icon: "fab fa-xing"
+        url: "https://www.xing.com/profile/Michael_Schneider104"
+
+# Footer
+footer:
+  links:
+    - label: "Impressum"
+      url: "https://schneider-michael.de/home/Impressum"
+
+markdown: kramdown
