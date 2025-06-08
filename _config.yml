@@ -8,7 +8,7 @@ url: "https://blog.schneider-michael.de"
 baseurl: ""
 
 theme: jekyll-theme-modernist
-remote_theme: "pages-themes/modernist@v0.2.0"
+#remote_theme: "pages-themes/modernist@v0.2.0"
 show_downloads: true
 
 plugins:
@@ -51,5 +51,16 @@ footer:
   links:
     - label: "Impressum"
       url: "https://schneider-michael.de/home/Impressum"
+
+
+# Am Ende ergänzen
+navigation:
+  - title: "Start"
+    url: "/"
+  - title: "Über mich"
+    url: "/about/"
+  - title: "Kontakt"
+    url: "/kontakt/"
+
 
 markdown: kramdown

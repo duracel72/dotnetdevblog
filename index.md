@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Willkommen im Blog"
 excerpt: "Technik, Tipps und tiefes Wissen aus dem .NET-Kosmos"
 ---
