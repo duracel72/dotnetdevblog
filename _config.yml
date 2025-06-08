@@ -8,14 +8,15 @@ url: "https://blog.schneider-michael.de"
 baseurl: ""
 
 theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes-jekyll@v4.24.0"
-
+remote_theme: "pages-themes/modernist@v0.2.0"
+show_downloads: true
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Navigation
 defaults:
