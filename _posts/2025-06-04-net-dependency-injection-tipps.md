@@ -52,3 +52,13 @@ var service = serviceProvider.GetService<IMyService>();
 
 Dependency Injection ist mächtig – aber nur so gut wie ihr Einsatz. Mit einem klaren Fokus auf Konstruktor-Injektion, korrekter Registrierung und expliziten Abhängigkeiten wird dein Code robuster und wartbarer. 
 Du hast eigene Erfahrungen mit DI in .NET gemacht? Teile sie gern in den Kommentaren!
+
+
+<hr>
+<footer style="text-align: center; font-size: 0.9em; color: #666; margin-top: 2rem;">
+  <p>
+    © {{ "now" | date: "%Y" }} Michael Schneider · 
+    <a href="https://schneider-michael.de/home/Impressum">Impressum</a> · 
+    <a href="/kontakt/">Kontakt</a>
+  </p>
+</footer>
