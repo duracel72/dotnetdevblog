@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Dependency Injection in .NET: Tipps aus der Praxis"
 date: 2025-06-04
 author: Michael Schneider
