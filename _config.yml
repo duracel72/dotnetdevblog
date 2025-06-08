@@ -37,13 +37,13 @@ author:
   michael:
     name: "Michael Schneider"
     bio: "Softwareentwickler mit 20+ Jahren .NET-Erfahrung"
-    links:
-      - label: "LinkedIn"
-        icon: "fab fa-linkedin"
-        url: "https://www.linkedin.com/in/michael-schneider-3a027233"
-      - label: "Xing"
-        icon: "fab fa-xing"
-        url: "https://www.xing.com/profile/Michael_Schneider104"
+    # links:
+    #   - label: "LinkedIn"
+    #     icon: "fab fa-linkedin"
+    #     url: "https://www.linkedin.com/in/michael-schneider-3a027233"
+    #   - label: "Xing"
+    #     icon: "fab fa-xing"
+    #     url: "https://www.xing.com/profile/Michael_Schneider104"
 
 # Footer
 footer:
