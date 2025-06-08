@@ -8,4 +8,8 @@ excerpt: "Technik, Tipps und tiefes Wissen aus dem .NET-Kosmos"
 
 Dies ist mein Blog rund um .NET, mit Tipps, Beispielen und Erfahrungen aus der Praxis.
 
-👉 [Letzter Beitrag](/_posts/2025-06-04-net-dependency-injection-tipps.md)
+---
+
+{% for post in site.posts %}
+  - [{{ post.title }}]({{ post.url }}) – {{ post.date | date: "%d.%m.%Y" }}
+{% endfor %}
