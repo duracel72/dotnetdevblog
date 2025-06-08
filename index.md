@@ -1,6 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: "Willkommen auf meinem Blog"
 ---
+
+# Willkommen auf meinem Blog
+
+Dies ist mein Blog rund um .NET, mit Tipps, Beispielen und Erfahrungen aus der Praxis.
+
+👉 [Letzter Beitrag](/2025/06/04/dependency-injection-richtig-einsetzen.html)
