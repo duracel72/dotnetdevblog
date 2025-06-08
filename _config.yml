@@ -16,7 +16,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-include-cache
-  - jekyll-remote-theme
 
 # Navigation
 defaults:
