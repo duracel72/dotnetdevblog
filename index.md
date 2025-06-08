@@ -1,6 +1,7 @@
 ---
-layout: default
-title: "Willkommen auf meinem Blog"
+layout: home
+title: "Willkommen im Blog"
+excerpt: "Technik, Tipps und tiefes Wissen aus dem .NET-Kosmos"
 ---
 
 # Willkommen auf meinem Blog

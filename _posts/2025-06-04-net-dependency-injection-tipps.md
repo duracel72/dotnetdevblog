@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: single
 title: "Dependency Injection in .NET: Tipps aus der Praxis"
 date: 2025-06-04
-author: Michael Schneider
+author: Michael
 categories: [.NET, Architektur]
-tags: [dependency-injection, .net8, best-practices]
+tags: [dependency-injection, .net, best-practices]
+excerpt: "Praktische Hinweise zur sauberen Nutzung von Dependency Injection in .NET-Projekten"
 ---
 
 Dependency Injection (DI) gehört zu den Grundpfeilern moderner .NET-Architektur. Dennoch sehe ich in vielen Projekten typische Fehler oder Missverständnisse – vom übermäßigen Einsatz des Service Locators bis hin zur fehlenden Trennung von Lebenszyklen.
